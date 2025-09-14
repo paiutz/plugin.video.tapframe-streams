@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.tapframe-streams" name="Tapframe Streams" version="1.0.0" provider-name="Tapframe">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" version="2.25.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.9.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Streaming links from multiple sources</summary>
+    <description>High-quality movie and TV show streams from various sources including 4KHDHub, UHDMovies, DahmerMovies and more.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
