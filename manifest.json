@@ -1,0 +1,60 @@
+{
+  "name": "Tapframe's Repo",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "4khdhub",
+      "name": "4KHDHub",
+      "description": "4KHDHub direct links",
+      "version": "1.0.1",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/4khdhub.js",
+      "enabled": true,
+      "formats": ["mkv"],
+      "logo": "https://4khdhub.fans/favicon.ico",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "uhdmovies",
+      "name": "UHDMovies",
+      "description": "High-quality movie and TV show streams from UHD Movies",
+      "version": "1.0.1",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/uhdmovies.js",
+      "enabled": true,
+      "formats": ["mkv"],
+      "logo": "https://uhdmovies.cat/wp-content/uploads/2021/03/cropped-output-onlinepngtools-1-32x32.png",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "dahmermovies",
+      "name": "DahmerMovies",
+      "description": "High-quality movie and TV show streams from Dahmer Movies",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/dahmermovies.js",
+      "enabled": true,
+      "formats": ["mkv"],
+      "logo": "https://image.similarpng.com/file/similarpng/very-thumbnail/2021/05/Letter-D-logo-design-template-with-geometric-shape-style-on-transparent-background-PNG.png",
+      "contentLanguage": [
+        "en"
+      ]
+    }
+  ]
+}
