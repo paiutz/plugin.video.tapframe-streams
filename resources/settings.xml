@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <category label="General">
+    <setting id="timeout" type="number" label="Request Timeout (seconds)" default="30"/>
+    <setting id="max_results" type="number" label="Maximum Search Results" default="20"/>
+    <setting id="enable_debug" type="bool" label="Enable Debug Logging" default="false"/>
+  </category>
+  <category label="Scrapers">
+    <setting id="enable_4khdhub" type="bool" label="Enable 4KHDHub" default="true"/>
+    <setting id="enable_uhdmovies" type="bool" label="Enable UHDMovies" default="true"/>
+    <setting id="enable_dahmermovies" type="bool" label="Enable DahmerMovies" default="true"/>
+  </category>
+</settings>
